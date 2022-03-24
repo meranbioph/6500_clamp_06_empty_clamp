@@ -64,8 +64,8 @@ porosity2
 
     type           DarcyForchheimer;
 
-    D 146300000 * 1.1 / 100;       // 1.1 is the thickness of TopTex, 100 is the thickness of the mesh
-    F 1375 * 1.1 / 100;      // D and F come from a PhD looking at fabrics. Much thinner than TopTex
+    D 146300000 * 1.1 / 100; // 16090000. 1.1 is the thickness of TopTex, 100 is the thickness of the mesh
+    F 1375 * 1.1 / 100;      // 151.2.  D and F come from a PhD looking at fabrics. Much thinner than TopTex
 
     DarcyForchheimerCoeffs
     {
